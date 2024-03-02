@@ -1,3 +1,5 @@
+import dotenv from "dotenv"
+dotenv.config();
 const token = process.env['token'];
 
 import fs from "fs";
